@@ -1,0 +1,18 @@
+{
+  "source": "cloudtrail",
+  "raw_event": {
+    "eventName": "StopLogging",
+    "eventTime": "2026-02-26T08:45:29Z",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "test-attacker",
+      "accountId": "YOUR_ACCOUNT_ID"
+    },
+    "requestParameters": {
+      "name": "siem-audit-trail"
+    },
+    "sourceIPAddress": "185.220.101.45",
+    "errorCode": "",
+    "awsRegion": "us-east-2"
+  }
+}
